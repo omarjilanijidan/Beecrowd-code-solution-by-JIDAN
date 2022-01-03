@@ -2,11 +2,9 @@
 using namespace std;
 int main()
 {
-    int a,b,c,d,e,total;
-    cin>>a>>b>>c>>d>>e;
-    total=((a*300)+(b*1500)+(c*600)+(d*1000)+(e*150))+225;
-
-
+    int a,total;
+    cin>>a;
+    total=a-2;
     cout<<total<<endl;
     return 0;
 }
