@@ -2,30 +2,30 @@
 using namespace std;
 int main()
 {
-    int i,n,count1=0,count2=0,count3=0,count4=0;
 
+    int n , c1=0,c2=0,c3=0,c4=0;
     cin>>n;
     int arr[n];
-    for(i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         cin>>arr[i];
     }
-    for(i=0;i<n;i++)
+    for(int i=0;i<n;i++)
     {
         if(arr[i]%2==0)
-            count1++;
+            c1++;
         if(arr[i]%3==0)
-            count2++;
+            c2++;
         if(arr[i]%4==0)
-            count3++;
+            c3++;
         if(arr[i]%5==0)
-            count4++;
-
+            c4++;
     }
-    cout<<count1<<" Multiplo(s) de 2"<<endl;
-    cout<<count2<<" Multiplo(s) de 3"<<endl;
-    cout<<count3<<" Multiplo(s) de 4"<<endl;
-    cout<<count4<<" Multiplo(s) de 5"<<endl;
+    cout<<c1<<" Multiplo(s) de 2"<<endl;
+    cout<<c2<<" Multiplo(s) de 3"<<endl;
+    cout<<c3<<" Multiplo(s) de 4"<<endl;
+    cout<<c4<<" Multiplo(s) de 5"<<endl;
+
     return 0;
 
 }
